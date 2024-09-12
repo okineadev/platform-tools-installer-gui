@@ -4,6 +4,11 @@
 AppName=Android SDK Platform Tools
 AppId={{09BC49C8-44AA-4FD8-90F2-628EA62B4338}}
 AppVersion=0.0.1
+AppCopyright=Copyright (C) Okinea Dev 2024-present
+AppPublisher=Okinea Dev
+AppPublisherURL=https://github.com/okineadev
+AppSupportURL=https://github.com/okineadev/platform-tools-installer-gui/issues
+AppUpdatesURL=https://github.com/okineadev/platform-tools-installer-gui/releases
 CreateAppDir=yes
 UsePreviousAppDir=no
 DefaultDirName={sd}\platform-tools
