@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/okineadev/platform-tools-installer-gui">
-    <img src="https://github.com/user-attachments/assets/0ac51b2b-edd6-4113-91ab-80ffa05cc130" width="300" alt="Android logo">
+    <img src="https://github.com/user-attachments/assets/0ac51b2b-edd6-4113-91ab-80ffa05cc130" width="300" alt="Android logo" title="Android is a trademark of Google LLC.">
   </a>
   
   <h3>platform-tools installer for Windows</h3>
@@ -26,3 +26,5 @@
 You can download this program from the [**release page**](https://github.com/okineadev/platform-tools-installer-gui/releases/latest) or from [**SourceForge**](https://sourceforge.net/projects/platform-tools-installer-gui/):
 
 [![Download platform-tools-installer-gui](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/platform-tools-installer-gui/files/latest/download)
+
+<p align="right"><sub><sup>Android is a trademark of Google LLC.</sup></sub></p>
