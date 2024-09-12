@@ -16,6 +16,6 @@
 ## Screenshot
 
 <div align="center">
-  <img alt="Screenshot of this installer" src="https://github.com/user-attachments/assets/ed7fc61c-d7fd-4aeb-97f2-0b48648d747d" height="300">
+  <img alt="Screenshot of this installer" src="https://github.com/user-attachments/assets/ed7fc61c-d7fd-4aeb-97f2-0b48648d747d" height="350">
 </div>
 
