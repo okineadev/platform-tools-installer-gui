@@ -1,3 +1,5 @@
+![SourceForge Downloads](https://img.shields.io/sourceforge/dt/platform-tools-installer-gui?logo=sourceforge&label=SourceForge%20downloads)
+
 <div align="center">
   <a href="https://github.com/okineadev/platform-tools-installer-gui">
     <img src="https://github.com/user-attachments/assets/0ac51b2b-edd6-4113-91ab-80ffa05cc130" width="300" alt="Android logo">
@@ -19,3 +21,8 @@
   <img alt="Screenshot of this installer" src="https://github.com/user-attachments/assets/ed7fc61c-d7fd-4aeb-97f2-0b48648d747d" height="350">
 </div>
 
+## Download
+
+You can download this program from the [**release page**](https://github.com/okineadev/platform-tools-installer-gui/releases/latest) or from [**SourceForge**](https://sourceforge.net/projects/platform-tools-installer-gui/):
+
+[![Download platform-tools-installer-gui](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/platform-tools-installer-gui/files/latest/download)
