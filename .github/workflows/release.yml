@@ -1,0 +1,39 @@
+name: Build executable for release
+
+on:
+  release:
+    types:
+      - published
+
+permissions:
+  id-token: write
+  attestations: write
+  contents: write
+
+jobs:
+  build:
+    name: Build the Inno Setup Installer
+    runs-on: windows-latest
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: 📥 Clone repository
+        uses: actions/checkout@v4.1.5
+
+      - name: ⚙️ Compile .ISS to .EXE Installer
+        uses: Minionguyjpro/Inno-Setup-Action@v1.2.2
+        with:
+          path: 'platform-tools-installer.iss'
+
+      - name: ✅ Attest artifacts
+        uses: actions/attest-build-provenance@v1.1.2
+        # See https://docs.github.com/en/actions/security-guides/using-artifact-attestations-to-establish-provenance-for-builds
+        with:
+          subject-path: Output/platform-tools-installer.exe
+
+      - name: ⬆️ Upload files to release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: 'Output/platform-tools-installer.exe'
