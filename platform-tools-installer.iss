@@ -1,6 +1,7 @@
 ; https://jrsoftware.org/ishelp/
 
 [Setup]
+; Basic setup information
 AppName=Android SDK Platform Tools
 AppId={{09BC49C8-44AA-4FD8-90F2-628EA62B4338}}
 AppVersion=0.0.1
@@ -27,14 +28,18 @@ OutputBaseFilename="platform-tools-installer"
 WizardImageStretch=no
 
 [Files]
+; Files to be included in the installation
 Source: "add-to-path.ps1"; DestDir: "{tmp}"; Flags: deleteafterinstall
 Source: "platform-tools\*"; DestDir: "{app}"
 
 [Messages]
+; Custom messages for the installer
 WelcomeLabel1=Welcome to the platform-tools installation wizard!
 
 [Tasks]
+; Tasks to be performed during installation
 Name: "addtopath"; Description: "Add to PATH (need restart)"; Flags: restart
 
 [Run]
+; Commands to be executed during installation
 Filename: "powershell.exe"; Parameters: "-ExecutionPolicy Bypass -File ""{tmp}\add-to-path.ps1"" -Folder ""{app}"""; Flags: runhidden runascurrentuser; Tasks: addtopath; StatusMsg: "Додавання до PATH..."
