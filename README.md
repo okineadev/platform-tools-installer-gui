@@ -15,16 +15,23 @@
   </p>
 </div>
 
-## Screenshot
+## 📸 Screenshot
 
 <div align="center">
   <img alt="Screenshot of this installer" src="https://github.com/user-attachments/assets/ed7fc61c-d7fd-4aeb-97f2-0b48648d747d" height="350">
 </div>
 
-## Download
+## 📥 Download
 
 You can download this program from the [**release page**](https://github.com/okineadev/platform-tools-installer-gui/releases/latest) or from [**SourceForge**](https://sourceforge.net/projects/platform-tools-installer-gui/):
 
 [![Download platform-tools-installer-gui](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/platform-tools-installer-gui/files/latest/download)
+
+## ❤️ Support
+
+If you like this project, consider supporting it by starring ⭐ it on GitHub, sharing it with your friends, or buying me a coffee ☕:
+
+- <https://send.monobank.ua/jar/6rUVs4yasg>
+- <https://donatello.to/okineadev>
 
 <p align="right"><sub><sup>Android is a trademark of Google LLC.</sup></sub></p>
