@@ -28,7 +28,7 @@ jobs:
           path: 'platform-tools-installer.iss'
 
       - name: ✅ Attest artifacts
-        uses: actions/attest-build-provenance@bd77c077858b8d561b7a36cbe48ef4cc642ca39d # v2.2.2
+        uses: actions/attest-build-provenance@c074443f1aee8d4aeeae555aebba3282517141b2 # v2.2.3
         # See https://docs.github.com/en/actions/security-guides/using-artifact-attestations-to-establish-provenance-for-builds
         with:
           subject-path: Output/platform-tools-installer.exe
