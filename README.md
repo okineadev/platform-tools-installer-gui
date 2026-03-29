@@ -15,6 +15,18 @@
   </p>
 </div>
 
+> [!WARNING]
+> This project is archived.
+>
+> Better install the [`Google.PlatformTools`](https://winstall.app/apps/Google.PlatformTools) package via [`winget`](https://github.com/microsoft/winget-cli):
+> ```bash
+> winget install -e --id Google.PlatformTools
+> ```
+>
+> This package is more reliable and simpler.
+>
+> Feel free to explore the code of this project ✌️
+
 ## 📸 Screenshot
 
 <div align="center">
@@ -29,9 +41,6 @@ You can download this program from the [**release page**](https://github.com/oki
 
 ## ❤️ Support
 
-If you like this project, consider supporting it by starring ⭐ it on GitHub, sharing it with your friends, or buying me a coffee ☕:
-
-- <https://send.monobank.ua/jar/6rUVs4yasg>
-- <https://donatello.to/okineadev>
+If you like this project, consider supporting it by starring ⭐ it on GitHub, sharing it with your friends, or [buying me a coffee ☕](https://github.com/okineadev/platform-tools-installer-gui/?sponsor=1):
 
 <p align="right"><sub><sup>Android is a trademark of Google LLC.</sup></sub></p>
